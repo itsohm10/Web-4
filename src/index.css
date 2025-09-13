@@ -137,9 +137,9 @@
   
   /* Navbar link animation */
   .nav-link {
-    @apply relative text-inverse font-medium py-2 px-1;
+    @apply relative text-primary-foreground font-medium py-2 px-1;
     @apply after:content-[''] after:absolute after:w-0 after:h-0.5 after:bottom-0 after:left-0;
-    @apply after:bg-inverse after:transition-all after:duration-300;
+    @apply after:bg-primary-foreground after:transition-all after:duration-300;
     @apply hover:after:w-full;
   }
   
