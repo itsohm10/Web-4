@@ -63,7 +63,7 @@ const Products = () => {
           className="w-full h-full object-cover grayscale"
         />
         <div className="absolute inset-0 bg-primary/40 flex items-center justify-center">
-          <div className="text-center text-inverse">
+          <div className="text-center text-primary-foreground">
             <h1 className="text-hero mb-4">Our Products & Services</h1>
             <p className="text-body-large max-w-2xl">
               Comprehensive solutions for all your scaffolding and engineering needs
@@ -87,7 +87,7 @@ const Products = () => {
             {products.map((product, index) => (
               <div key={index} className="card-peaceful group">
                 <div className="flex items-start space-x-6">
-                  <div className="flex-shrink-0 w-16 h-16 bg-primary text-inverse rounded-full flex items-center justify-center">
+                  <div className="flex-shrink-0 w-16 h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center">
                     <product.icon size={28} />
                   </div>
                   <div className="flex-1">

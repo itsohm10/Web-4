@@ -72,7 +72,7 @@ const About = () => {
           className="w-full h-full object-cover grayscale"
         />
         <div className="absolute inset-0 bg-primary/40 flex items-center justify-center">
-          <div className="text-center text-inverse">
+          <div className="text-center text-primary-foreground">
             <h1 className="text-hero mb-4">About Our Company</h1>
             <p className="text-body-large max-w-2xl">
               Building excellence through innovation, safety, and unwavering commitment to quality
@@ -151,7 +151,7 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-8">
             {values.map((value, index) => (
               <div key={index} className="card-peaceful flex items-start space-x-6">
-                <div className="flex-shrink-0 w-16 h-16 bg-primary text-inverse rounded-full flex items-center justify-center">
+                <div className="flex-shrink-0 w-16 h-16 bg-primary text-primary-foreground rounded-full flex items-center justify-center">
                   <value.icon size={28} />
                 </div>
                 <div>

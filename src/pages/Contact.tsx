@@ -132,7 +132,7 @@ const Contact = () => {
           className="w-full h-full object-cover grayscale"
         />
         <div className="absolute inset-0 bg-primary/40 flex items-center justify-center">
-          <div className="text-center text-inverse">
+          <div className="text-center text-primary-foreground">
             <h1 className="text-hero mb-4">Contact Us</h1>
             <p className="text-body-large max-w-2xl">
               Get in touch with our expert team for all your scaffolding and engineering needs
@@ -300,7 +300,7 @@ const Contact = () => {
                 {contactInfo.map((info, index) => (
                   <div key={index} className="card-peaceful">
                     <div className="flex items-start space-x-4">
-                      <div className="flex-shrink-0 w-12 h-12 bg-primary text-inverse rounded-full flex items-center justify-center">
+                      <div className="flex-shrink-0 w-12 h-12 bg-primary text-primary-foreground rounded-full flex items-center justify-center">
                         <info.icon size={24} />
                       </div>
                       <div>

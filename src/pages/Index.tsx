@@ -128,7 +128,7 @@ const Index = () => {
             <div className="grid md:grid-cols-3 gap-8">
               {features.map((feature, index) => (
                 <div key={index} className="text-center space-y-4">
-                  <div className="inline-flex items-center justify-center w-16 h-16 bg-primary text-inverse rounded-full">
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-primary text-primary-foreground rounded-full">
                     <feature.icon size={28} />
                   </div>
                   <h3 className="text-card-title">{feature.title}</h3>
@@ -186,7 +186,7 @@ const Index = () => {
           <div className="grid md:grid-cols-3 gap-8">
             {features.map((feature, index) => (
               <div key={index} className="card-peaceful text-center">
-                <div className="inline-flex items-center justify-center w-20 h-20 bg-primary text-inverse rounded-full mb-6">
+                <div className="inline-flex items-center justify-center w-20 h-20 bg-primary text-primary-foreground rounded-full mb-6">
                   <feature.icon size={32} />
                 </div>
                 <h3 className="text-card-title mb-4">{feature.title}</h3>
