@@ -39,12 +39,17 @@ const Footer = () => {
                 </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Phone className="h-5 w-5 text-muted-custom" />
-                <div>
-                  <p className="font-medium">+91 98765 43210</p>
-                  <p className="text-muted-custom text-sm">+91 87654 32109</p>
-                </div>
-              </div>
+  <Phone className="h-5 w-5 text-muted-custom" />
+  <div>
+    <a href="tel:+919876543210" className="font-medium hover:underline">
+      +91 98765 43210
+    </a>
+    <br />
+    <a href="tel:+918765432109" className="text-muted-custom text-sm hover:underline">
+      +91 87654 32109
+    </a>
+  </div>
+</div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-muted-custom" />
                 <p className="font-medium">info@shreeganesheng.com</p>
